@@ -161,7 +161,7 @@
             this.ResultBox.Size = new System.Drawing.Size(509, 143);
             this.ResultBox.TabIndex = 0;
             this.ResultBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.ResultBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ResultBox_KeyDown);
+            this.ResultBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.InputValidation);
             // 
             // tableLayoutPanel1
             // 
